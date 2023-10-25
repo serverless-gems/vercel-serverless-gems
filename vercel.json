@@ -27,6 +27,13 @@
       ]
     }
   ],
+  "redirects": [
+    {
+      "source": "/functions/",
+      "destination": "/",
+      "permanent": true
+    }
+  ],
   "rewrites": [
     {
       "source": "/api/event",
