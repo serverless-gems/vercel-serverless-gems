@@ -32,6 +32,21 @@
       "source": "/functions/",
       "destination": "/",
       "permanent": true
+    },
+    {
+      "source": "/privacy/",
+      "destination": "https://serverless-gems.dev/privacy/",
+      "permanent": true
+    },
+    {
+      "source": "/license/",
+      "destination": "https://serverless-gems.dev/license/",
+      "permanent": true
+    },
+    {
+      "source": "/about/",
+      "destination": "https://serverless-gems.dev/about/",
+      "permanent": true
     }
   ],
   "rewrites": [
