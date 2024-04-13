@@ -3,8 +3,8 @@ import Plausible from "plausible-tracker";
 import colorScheme from "./_detectColorScheme";
 
 const {trackEvent, trackPageview, enableAutoOutboundTracking} = Plausible({
-  domain: "vercel.serverless-gems.dev",
-  apiHost: "https://vercel.serverless-gems.dev",
+  domain: "serverless-gems.dev",
+  apiHost: "https://firebird.sunnypixels.workers.dev/api/event",
 });
 
 document.addEventListener("DOMContentLoaded", () => {
@@ -23,6 +23,7 @@ document.addEventListener("DOMContentLoaded", () => {
         prefersColorScheme: colorScheme(),
         userAgent: navigator.userAgent,
         deviceWidth: window.innerWidth,
+        project: "vercel.serverless-gems.dev"
       },
     }
   );

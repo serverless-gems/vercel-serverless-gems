@@ -48,11 +48,5 @@
       "destination": "https://serverless-gems.dev/about/",
       "permanent": true
     }
-  ],
-  "rewrites": [
-    {
-      "source": "/api/event",
-      "destination": "https://plausible.io/api/event"
-    }
   ]
 }
